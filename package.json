@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "preact build",
-    "dev": "preact watch",
+    "dev": "preact watch -p 9900",
     "lint": "eslint src",
     "test": "jest"
   },
@@ -20,6 +20,7 @@
     ]
   },
   "dependencies": {
+    "home-assistant-js-websocket": "^8.0.1",
     "preact": "^10.11.3",
     "preact-render-to-string": "^5.2.1",
     "preact-router": "^3.2.1"
